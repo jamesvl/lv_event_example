@@ -53,7 +53,6 @@ defmodule Example.EventExampleLive do
         name="radio-01"
         value="Yes"
         checked={@is_yes_checked}
-        phx-update="ignore"
         phx-click="got-click"
         phx-focus="got-focus"
         phx-value-val="yep"
@@ -69,7 +68,6 @@ defmodule Example.EventExampleLive do
         name="radio-01"
         value="No"
         checked={!@is_yes_checked}
-        phx-update="ignore"
         phx-click="got-click"
         phx-focus="got-focus"
         phx-value-val="nope"
