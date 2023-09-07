@@ -57,7 +57,6 @@ defmodule Example.EventExampleLive do
         phx-click="got-click"
         phx-focus="got-focus"
         phx-value-val="yep"
-        checked={@is_yes_checked}
         phx-value-addl={[1, 2]}
       />
       Yes
